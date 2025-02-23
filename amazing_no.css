@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Awesome{
     background-color:#f5dcc4;
 }
@@ -29,3 +30,97 @@
 .image{
     height: 100%;
 }
+=======
+/* 🌟 Smooth Animated Gradient Background */
+.gradient-background {
+  background: linear-gradient(300deg, #69247C, #CDC1FF, #5c3c72);
+  background-size: 180% 180%;
+  animation: gradient-animation 12s ease-in-out infinite;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🔄 Gradient Animation */
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ✨ Updated Card Style */
+.Awesome {
+  background: rgba(245, 220, 196, 0.85); /* Light theme with transparency */
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  /* Centering content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🌟 Headings with Better Readability */
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #8B4D2D;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #70472F;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* 📦 Container */
+.container {
+  max-width: 100%;
+  padding: 20px;
+}
+
+/* 🖼 Image Styling */
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+/* 📱 Fully Responsive */
+@media (max-width: 768px) {
+  .Awesome {
+      max-width: 90%;
+      padding: 30px;
+  }
+
+  h1 {
+      font-size: 2.3rem;
+  }
+
+  h2 {
+      font-size: 1.2rem;
+  }
+
+  .image {
+      max-width: 100%;
+      height: auto;
+  }
+}
+>>>>>>> 802cf62 (Initial commit)

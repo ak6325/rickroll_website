@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .gradient-background {
     background: linear-gradient(300deg, #69247C, #CDC1FF, #5c3c72);
     background-size: 180% 180%;
@@ -29,3 +30,107 @@
 .container {
   max-width: 100%;
 }
+=======
+/* 🌟 Smooth Animated Gradient Background */
+.gradient-background {
+    background: linear-gradient(300deg, #69247C, #CDC1FF, #5c3c72);
+    background-size: 250% 250%;
+    animation: gradient-animation 12s ease-in-out infinite;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 🔄 Gradient Animation */
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* ✨ Enhanced Card (Glassmorphism Effect) */
+.hello {
+    background: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 🌟 Headings for Better Readability */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #f8f8f8;
+    opacity: 0.9;
+}
+
+/* 🖼️ Image Styling */
+img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* 🎨 Modern Buttons */
+.btn {
+    font-size: 1.2rem;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 💜 Purple Button */
+.btn-primary {
+    background: linear-gradient(90deg, #9C27B0, #E040FB);
+    color: white;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #E040FB, #9C27B0);
+    transform: scale(1.08);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .hello {
+        max-width: 90%;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 200px;
+    }
+}
+>>>>>>> 802cf62 (Initial commit)
